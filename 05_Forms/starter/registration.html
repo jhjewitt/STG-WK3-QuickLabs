@@ -27,61 +27,67 @@
     <!-- insert form here -->
     <h1>User Details</h1>
         <form>
-            <ul>
-                <li>
-                    <label for="fn">First Name</label>
-                    <input type="text" id="fn" name="First Name" autofocus required> 
-                </li>
-                <li>
-                    <label for="ln">Last Name</label>
-                    <input type="text" id="ln" name="Last Name" required>
-                </li>
-                <li>
-                    <label for="role">Role</label>
-                    <input type="text" id="role" name="Role" required>
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="you@domain.com"> 
-                </li>
-                <form>
-                    <ul>
-                        <li>
-                            <button>submit</button>
-                        </li>
-                    </ul>
-                </form>
-            </ul>
-        </form>
-    <h1>Course Details</h1>
-        <form>
-            <ul>
-                <li>
-                    <label for="course_select">Select a course</label>
-                    <select name="course" id="course">
-                        <option value="Js">Programming with Js</option>
-                        <option value="Wa">Developing Web Apps</option>
-                        <option value="Rw">Developing Responsive Websites</option>
-                        <option value="Jq">Leveraging the power of JQuery</option>
-                    </select>
-                </li>
-                <li>
-                    <label for="NoD">Number of Delegates</label>
-                    <input type="number" id="NoD" name="NoD"> 
-                </li>
-                <li>
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="date"> 
-                </li>
+            <legend>User Info</legend>
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="fn">First Name</label>
+                        <input type="text" id="fn" name="First Name" autofocus required> 
+                    </li>
+                    <li>
+                        <label for="ln">Last Name</label>
+                        <input type="text" id="ln" name="Last Name" required>
+                    </li>
+                    <li>
+                        <label for="role">Role</label>
+                        <input type="text" id="role" name="Role" required>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@domain.com"> 
+                    </li>
                     <form>
                         <ul>
                             <li>
-                                <button>Submit</button>
+                                <button>submit</button>
                             </li>
                         </ul>
                     </form>
-                </form>
-            </ul>
+                </ul>
+            </fieldset>
+        </form>
+    <h1>Course Details</h1>
+        <form>
+            <legend>Course Details</legend>
+                <fieldset>
+                <ul>
+                    <li>
+                        <label for="course_select">Select a course</label>
+                        <select name="course" id="course">
+                            <option value="Js">Programming with Js</option>
+                            <option value="Wa">Developing Web Apps</option>
+                            <option value="Rw">Developing Responsive Websites</option>
+                            <option value="Jq">Leveraging the power of JQuery</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="NoD">Number of Delegates</label>
+                        <input type="number" id="NoD" name="NoD"> 
+                    </li>
+                    <li>
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date"> 
+                    </li>
+                        <form>
+                            <ul>
+                                <li>
+                                    <button>Submit</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </form>
+                </ul>
+            </fieldset>
         </form>
     </body>
 </html>
