@@ -78,3 +78,8 @@ form label {
 .team {
     background-image: url("/06_Tables/starter/images/trainingCourses.jpg");
 }
+
+article h1 {
+    color: black;
+    padding: 1%;
+}
