@@ -2,21 +2,13 @@
 <html>
 <head>
     <title>Quick Lab 6 - CSS Selectors</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<style>
-    /* Bodge to make the blue logo visible on a blue background */
-    img {
-        background-color: white;
-    }
-</style>
 <body>
-    <h1> A <em>heading</em></h1>
-    <p>A paragraph <em>with emphasis</em></p>
     <header>
-        <h1>Header</h1>
         <nav>
             <ul>
-                <li><a href="./registration.html"></a></li>
+                <li><a href="registration.html">Registration</a></li>
                 <li><a href="#item2">Item 2</a></li>
                 <li><a href="#item3">Item 3</a></li>
                 <li><a href="#item4">Item 4</a></li>
@@ -24,14 +16,17 @@
                 <li><a href="#item6">Item 6</a></li>
             </ul>
         </nav>
+        <h1 class="keyboard">Home Page</h1>
     </header>
-    <article>
-            <h1>Article</h1>
-            <p>paragraph 1</p>
-            <p>paragraph 2</p>
-            <img src="QA_text_blue.png">
-            <footer>Article footer</footer>
-    </article>
+    <main>
+        <article>
+                <h1>Article</h1>
+                <p>paragraph 1</p>
+                <p>paragraph 2</p>
+                <img src="logo.png">
+                <footer>Article footer</footer>
+        </article>
+    </main>
     <footer>
            Body footer
     </footer>
